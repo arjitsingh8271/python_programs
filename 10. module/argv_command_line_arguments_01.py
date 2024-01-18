@@ -28,7 +28,7 @@ print(argv[2])
 
 
 '''
-/python_programming$ python3 command_line_arguments_01 10 20
+/python_programming$ python3 command_line_arguments_01.py 10 20
 
 OUTPUT:
 10

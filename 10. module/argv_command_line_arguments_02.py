@@ -12,7 +12,7 @@ print(f"Type x is {type(x)}")
 
 
 '''
-/python_programming$ python3 command_line_arguments_02 arjit 23
+/python_programming$ python3 command_line_arguments_02.py arjit 23
 
 OUTPUT:
 Name is arjit

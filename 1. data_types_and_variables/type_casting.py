@@ -21,3 +21,19 @@ print(type(d))
 d = float(d)
 print(type(d))
 print(" ")
+
+
+'''
+OUTPUT: <class 'str'>
+		<class 'int'>
+ 
+		<class 'int'>
+		<class 'str'>
+ 
+		<class 'float'>
+		<class 'int'>
+ 
+		<class 'int'>
+		<class 'float'>
+'''
+

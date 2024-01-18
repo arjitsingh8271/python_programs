@@ -1,2 +1,2 @@
-import math
-print(math.gcd(15,25))
+a = 123
+print(a)
