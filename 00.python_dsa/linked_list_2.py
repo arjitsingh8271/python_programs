@@ -206,41 +206,40 @@ class Node:
         return(c)
                 
               
-cll=Node()
-print(cll)
+cll=Node(); print(cll)
 cll.append(10)
 cll.append(20)
-cll.append(30)
-print(cll)
+cll.append(30); print(cll)
+
 print("length of the list:",len(cll))
 print("insertion at begning of node")
-cll.insert_at_begin(5)
-print(cll)
+cll.insert_at_begin(5); print(cll)
+
 print("insertion after given node")
-cll.insert_after_node(10,15)
-print(cll)
+cll.insert_after_node(10,15); print(cll)
+
 print("insertion before a given node")
-cll.insert_before_node(30,25)
-print(cll)
+cll.insert_before_node(30,25); print(cll)
+
 print("insertion at given position")
-cll.insert_at_position(50,4)
-print(cll)
+cll.insert_at_position(50,4); print(cll)
+
 print("deletion of first node")
-cll.delete_first_node()
-print(cll)
+cll.delete_first_node(); print(cll)
+
 print("deletion of last node")
-cll.delete_last_node()
-print(cll)
+cll.delete_last_node(); print(cll)
+
 print("delete specific node")
-cll.delete_specific_node(50)
-print(cll)
+cll.delete_specific_node(50); print(cll)
+
 print("deletion after a node")
-cll.delete_after_node(15)
-print(cll)
+cll.delete_after_node(15); print(cll)
+
 print("deletion before a node")
-cll.delete_before_node(25)
-print(cll)
+cll.delete_before_node(25); print(cll)
+
 print("delete position node")
-cll.delete_position_node(1)
-print(cll)
+cll.delete_position_node(1); print(cll)
+
 print("lenght of the list:",len(cll))
