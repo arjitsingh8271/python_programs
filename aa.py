@@ -1,18 +1,11 @@
-a = [3,8,12,13, 17]
+class abc:
+    def __init__(self, n, r):
+        self.n = "aaa"
+        self.r = 9
 
-#a.sort()
+    def dis(self):
+        print(self.n, self.r)
 
-key = int(input())
-
-l = 0
-h = len(a)-1
-
-while l <= h:
-    mid = (l+h)//2
-    
-    if(a[mid] == key):
-        print(mid)
-    elif(a[mid] < key):
-        l = mid+1
-    else:
-        h = mid-1
+s = abc()
+s.dis()
+print(s.__dict__)
