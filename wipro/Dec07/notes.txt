@@ -1,0 +1,176 @@
+Object Oriented Programming :
+
+It is an approach that provides a way of modularizing programming, that which 
+can be used to create small partition memory area, for both data and objects, 
+which are to be used as templates for creating copies of such modules on demand. 
+
+Object : An object is real world entity, that which possess 3 characterstics known as
+
+	   (i) State
+
+	  (ii) Behaviour
+
+	 (iii) Identity
+
+OOPS features : 
+_______________
+
+
+(i) Encapsulation : Wrapping up of data and functions into a single unit known as encapsulation.
+
+(ii) Abstraction  : Hiding the irrelevant details of an object, that do not contribute to its essential characterstics known as abstraction.
+
+(iii) Inheritance : Deriving an new entity from already existing entity known as inheritance, through inheritance we can reduce the size 
+			of the program. 
+
+(iv) Polymorphism : The ability to take more than one form known as polymorphism.
+
+
+class : A class is a template or blueprint, that which contains combination of data members and member functions. Members of the class can be accessable by using instance of the class. 
+
+class class_name
+{
+    data members;
+    member functions;
+}
+
+_________________________________________________________________________________________________
+
+Modules refer to a file that contains python code. 
+
+A file containing python code, stored with extension .py
+Modules are used to break down large programs into small manageable and organized files.
+Modules provide reusability of code. 
+The modules can be imported into multiple files. 
+
+
+
+def show(name):
+   print(name)
+
+show()
+show("Jash")
+show("Nandini","Mithun")
+
+In python, we can pass n number of arguments to a method known as varargs
+
+Means, variable-length arguemnets in python can be specified in 2 ways as
+
+*args
+*kwargs
+
+*args 
+
+   Arguments that can take an unspecified amount of input
+   It stores data in list format
+   
+   def show(*name):
+     ...
+   
+then the above all statements will work
+
+Python can accept multiple keyword arguments known as **kwargs, means we can pass different data types to the function parameters. 
+
+def args_demo(**kwargs):
+    print(kwargs)
+
+args_demo(eid=100,ename="sam",salary=84234.22)
+
+You can define a class as
+
+class class_name:
+
+You can define a method in class, by using def keyword 
+
+class Demo:
+    def show(self):
+
+--> self used to represent the instance of the class, 
+--> With this keyword attributes and methods of the class can be accessable
+--> It binds the attributes with the given arguments
+
+You can access members of the class, by using object name. 
+
+demo=Demo()
+
+means demo is an object of Demo class. 
+
+Access Modifiers : 
+___________________
+
+python provides basically 3 access modifiers known as
+
+(i) private : Allows you to access members within current class. A private variable will be prefixed with (__) double underscore
+
+(ii) public : Allows you to access members in entire application.  By default python members are public
+
+(iii) protected : Allows you to access members within current/derived class.  To make an instance of protected it must be (_) single underscore
+
+_________________________________________________________________________________________________
+
+
+Constructor : A constructor is a special member, which used to initialize the member variables of the class. 
+
+A constructor can be invoked automatically
+
+In python for constructor, we have pre-defined magic method is there known as __init__(self);
+
+You can define constructor in python as 
+
+def __init__(self):
+    #body
+
+
+There are 2 types of constructors in python as
+
+1) Default Constructor
+
+	This default constructor cannot accept any argument
+	Its definition has only one argument (self) which reference to the object of particular class
+
+2) Parameterized Constructor
+
+	Constructor with parameters known as parameterized constructor
+	The parameterized constructor take its first argment as reference as self, and rest of argments are provided by programmer
+
+def __str__(self) : 
+
+This method is known as magic method used to display member variables of the class. This method will be fired automatically, once you print the object. 
+
+As soon as you print the object, the code in __str__() gets executed. 
+
+functions in the class can be accessable by using object name, but if you want to access method with class name, then we need the annotation known as 
+
+@classmethod
+
+A class method is a method which is bound to the class and not to the object of the class
+They have the access to the state of class
+It can modify a class state that would apply across all the instances of the class
+
+Inheritance : The concept of deriving a new class from already existing class known as inheritance,
+the class which derived known as derived class, the class from which its derived known as base class. 
+
+Through inheritance, we can reduce the size of the program. 
+
+class First:
+	pass
+
+class Second(First):
+	pass
+
+Once you create an object to Second class, you can access all public/protected members of base class. 
+
+Method Overriding : 
+
+We can provide some specific implementation of the parent class method in our child class. When the parent class method defined in the derived class, that concept known as method overloading.  We may need to perform method overloading in the scenario where the different definition of a parent class method needed in child class. 
+
+
+
+
+
+
+
+
+
+
+

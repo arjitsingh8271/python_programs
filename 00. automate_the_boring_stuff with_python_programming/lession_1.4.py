@@ -9,6 +9,7 @@ print("What is your age?") # ask for their name
 age = input()
 print("You will be " + str(int(age)+1) + " in next year")
 
+
 '''
 name = input("Hello \nWhat is your name?\n")
 print(f"It is goot to meet you, {name}")

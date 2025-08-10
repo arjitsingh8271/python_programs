@@ -1,0 +1,208 @@
+1) What is Python
+
+	Python is a general purpose, dynamically type, high-level, compiled and interpreted  purely object
+oriented programming language that supports functional programming. 
+
+2) Why Python
+
+	By using Python, we can make any kind of application like 
+
+		(I) Console Application
+
+		(ii) Windows Application
+
+		(iii) Web Application
+
+		 (iv) Mobile Application
+
+		(v) Service Oriented Application
+
+		(vi) It supports all object oriented programming features 
+
+		
+		(vii) Python is having nice concept known as packages (or) Modules 
+
+
+3) Python Features
+
+
+  	-> Interpreted : 
+
+			Python programs are interpreted, as executed line by line
+
+	-> Interactive
+			We have provision in python that we can prompt and take input from user
+				and perform dynamic operations. 
+
+	-> Object Oriented : 
+
+			Python completely supports object oriented programming features 
+
+	-> Standard Library 
+			Python built-in libraries are portable, cross platform compatible
+
+	-> GUI Support 
+			Python supports GUI based programming, where we can create controls 
+				and write event-driven code
+
+	-> Scalable
+			It provides better structure and support for large programs
+
+	-> Database : 
+			Python supports to interact with databases. 
+
+
+DataTypes : 
+_______________
+
+Numeric
+	
+	integer, float, complex values are stored in python numbers as data-type
+
+Boolean 
+
+	True or False data to be stored
+
+Sequence
+
+	The string can be defined as the sequence of characters represented in the quotation marks
+
+		+ used for concatenation
+		* used for repetition
+
+List : 
+
+	-> List is an ordered sequence of items. 
+
+	-> All the items in the list do not need to be of same data type
+
+	-> Items are separated by comma operation within [] 
+
+	["Mohan","Nandini",12,"Bala","Trisha"]
+
+Lists are mutable, means we can change the values. 
+
+Tuple
+
+	Tuples are similar to Lists
+
+	Tuples to be specified in () 
+
+	Tuples are immutable, as they cannot be modified
+
+	Tuples are used to write-protect data and are usually faster than lists as they cannot change dynamically
+
+	(12,44,233,22)
+
+	("Nandini","Abha","Arjit")
+
+
+Set : Used to store unique elements,
+
+	if you want to remove duplicate entries then set collection is best
+
+	it would be specified using {}
+
+	names={"Mohan","Nandini","Sindhu","Bala","Kiran"};
+
+	names={"Mohan","Nandini","Sindhu","Bala","Kiran","Mohan","Bala","Nandini"};
+
+Dictionary
+
+	Used to store data w.r.t. Key/Value Pairs 
+
+	It generally used when we have huge amount of data
+
+	employ_info = {
+			"Mohan","Raj",
+			"Thrisha","GS"
+			"Raj","Kishore"
+		      }
+
+        student_info = {
+			"1","Debashis",
+			"2","Nandini",	
+			"3","Sindhu",
+			"4","Bala"
+		}
+
+
+print() : used to display any value or message
+
+input() : Used to read input from the keyboard.
+
+sname="K Nandini"
+
+id() : This function allows you to display the memory location address number
+
+type() : Used to display data type of particular variable
+
+In Python we have casting functions, which allows you to cast one data type to another data type
+
+int()  : used to convert into integer type
+
+float() : Used to convert into float type
+
+str()  : Used to convert into string type
+
+format() : This function allows you to display data w.r.t. Specific format, as with connection strings. 
+
+Control Structures : Used to define the flow the flow of the program. 
+
+There are 2 types of control structures known as
+
+1) Branching 
+
+	if...else : Executes the statement(s) based on the condition
+
+		if (condition) :
+		    statement(s);
+                else:
+	            statement(s)
+
+2) Looping
+
+	while loop : This loop executes all the statements repeatedly until the condition remains true, if the condition remains false, then it comes out of the loop.
+
+	for every loop, basically there are 3 phases known as 
+
+		(I) Initialization
+
+		(ii) Condition
+
+		(iii) Increment/Decrement
+
+Initialization performed at the beginning of the loop
+
+Condition performed at the conditional part of loop
+
+Increment or decrement performed before closing the loop
+
+Continue keyword used to skip the remaining statements of current loop and go to the next iteration
+
+
+Python Functions : 
+
+A collection of related code to be written known as function. 
+By using functions, we can reuse or we can return any calculated value. 
+
+You can define any python function as
+
+def function_name(parameters):
+     #code
+
+you can call the function as
+
+function_name(parameters)
+
+
+
+
+
+
+
+
+
+
+
+			
